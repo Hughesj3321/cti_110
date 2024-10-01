@@ -1,0 +1,85 @@
+# CTI 110
+# P1BONUS
+# Jamie Hughes
+# 9/26/24
+
+import turtle
+t = turtle. Turtle()
+t.pencolor("green")
+t.fillcolor("red")
+t.pensize(5)
+t.fd(100)
+t.pu()
+t.bk(50)
+t.pd()
+t.rt(90)
+t.fd(100)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+# W initial
+t.pu()
+t.rt(90)
+t.fd(150)
+t.lt(90)
+t.fd(50)
+t.rt(155)
+t.pd()
+t.fd(100)
+t.lt(135)
+t.fd(50)
+t.rt(135)
+t.fd(50)
+t.lt(135)
+t.fd(100)
+t.rt(70)
+# H initial
+t.pu()
+t.fd(50)
+t.pd()
+t.rt(90)
+t.fd(100)
+t.pu()
+t.lt(180)
+t.fd(50)
+t.pd()
+t.rt(90)
+t.fd(50)
+t.pu()
+t.lt(90)
+t.fd(50)
+t.pd()
+t.rt(180)
+t.fd(100)
+# shape
+
+t.pu()
+t.fd(50)
+t.rt(90)
+t.fd(150)
+t.pd()
+t.begin_fill()
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.lt(45)
+t.fd(50)
+t.end_fill()
+
+
+
+
+
+#t.pd()
+
