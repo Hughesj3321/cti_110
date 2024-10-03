@@ -35,3 +35,4 @@ print(num_burgers, "🍔burger\t$", format(burger_total, ".2f"))
 print(num_fries,"🍟fry\t\t$", format(fry_total, ".2f"))
 print("-" * 20)
 print("Total\t\t$", format(meal_total, ".2f"))
+
