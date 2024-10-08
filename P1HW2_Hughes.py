@@ -20,3 +20,11 @@ print("✈️Trip calculator✈️")
 budget = float(input("What is your travel budget? $ "))
 # Where are they going?
 destination = input("Where are you going?")
+# Gas money?
+gas = input("How much do you plan to spend on gas?")
+# Hotel money?
+hotel = input("What are you planing to spend on a hotel?")
+# Food money?
+food = input("What is your food allowance?")
+# TOTAL
+total = 
