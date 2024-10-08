@@ -14,7 +14,7 @@
 9. Subtract expenses from budget
 10. Display results
 """
-print("✈️Trip calculator✈️")
+print("✈️  Trip calculator ✈️")
 print()
 # Ask user to enter their budget
 budget = float(input("What is your travel budget? $ "))
@@ -27,5 +27,8 @@ hotel = float(input("What are you planing to spend on a hotel?"))
 # Food money?
 food = float(input("What is your food allowance?"))
 # TOTAL
-total = gas+hotel+food
-print("expenses: $", format(total,".2f"))
+expenses = gas+hotel+food
+print("expenses: $", format(expenses,".2f"))
+# Remaining amount
+Remaining_balance = budget-expenses
+print("Remaining balance: $", format(Remaining_balance, ".2f"))
