@@ -14,17 +14,18 @@
 9. Subtract expenses from budget
 10. Display results
 """
-
-# Ask user to enter their budget
 print("✈️Trip calculator✈️")
+print()
+# Ask user to enter their budget
 budget = float(input("What is your travel budget? $ "))
 # Where are they going?
 destination = input("Where are you going?")
 # Gas money?
-gas = input("How much do you plan to spend on gas?")
+gas =float(input("How much do you plan to spend on gas?"))
 # Hotel money?
-hotel = input("What are you planing to spend on a hotel?")
+hotel = float(input("What are you planing to spend on a hotel?"))
 # Food money?
-food = input("What is your food allowance?")
+food = float(input("What is your food allowance?"))
 # TOTAL
-total = 
+total = gas+hotel+food
+print("expenses: $", format(total,".2f"))
