@@ -1,6 +1,6 @@
 # CTI 110
 # P1LAB2 - Recipt
-# Norris
+# Hughes
 # 10/1/24
 
 print("P1LAB2")
