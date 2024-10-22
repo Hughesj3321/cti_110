@@ -3,6 +3,7 @@
 # Hughes
 # 10/22/24
 
+
 def main():
     print("Choose your own adventure")
     print("Your friends want to explore a spooky house.")
