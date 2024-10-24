@@ -24,7 +24,7 @@ def go_with_friends():
     if choice ==1:
         print("John goes to the door...he dies.")
     if choice ==2:
-        print("Chris goes to the door...he dies.")
+        print("Chris goes to the door...he hears someone inside.")
     if choice ==3:
         print("You go to the door and you sence that someone is watching you.")
 
@@ -41,7 +41,22 @@ def go_home():
 
 def get_pizza():
     print("You paiently wait on your door dasher.")
+    print("While waiting on the arival of your less than stellar door dasher, you get a phone call from a unknown number.")
+    print("You look at the phone as it rings while thinking,'I hate robo calls,'")
+    print("The caller leaves a voicemail, it's Chris.")
+    print("You call Chris.")
+    print("1. Ask Chris about the new number.")
+    print("2. Ask Chrs about the house.")
+    choice = int(input())
+    if choice ==1:
+        ask_about_number()
+    elif choice==2:
+        ask_about_house()
 
+def ask_about_number():
+    print("Your door dasher has arrived.")
+def ask_about_house():
+    print("Someone knocks at the door.")
 def get_chinese():
     print("All of the nearby resturants are closed, you deside to drive.")
 
